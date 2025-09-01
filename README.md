@@ -23,11 +23,4 @@ Built with **Spring Boot, MySQL, Thymeleaf, and TailwindCSS**, it provides a par
 - **Machine Learning**: Rule-based engine + Python microservice (FastAPI/Flask)  
 - **Deployment**: Docker, GitHub Actions, Render/AWS/Heroku  
 
----
 
-## ⚡ Getting Started
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/pc-builder-recommender.git
-cd pc-builder-recommender/backend
