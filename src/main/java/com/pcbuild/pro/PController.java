@@ -6,13 +6,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PController {
 
-    @GetMapping("/i")
+    @GetMapping("/")
     public String index() {
-        return "index"; // looks for src/main/resources/templates/index.html
+        return "index"; 
     }
 
     @GetMapping("/signin")
     public String signin() {
-        return "signin"; // looks for src/main/resources/templates/signin.html
+        return "signin";
+    }
+
+    @GetMapping("/signup")
+    public String signup() {
+        return "signup"; 
     }
 }
